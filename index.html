@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RPS Face-Off</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- User Side -->
+    <div class="player-section">
+      <h2>You</h2>
+      <div class="emoji" id="user-emoji">❔</div>
+      <div class="choices">
+        <button onclick="play('rock')" id="user-rock">✊</button>
+        <button onclick="play('paper')" id="user-paper">✋</button>
+        <button onclick="play('scissors')" id="user-scissors">✌️</button>
+      </div>
+    </div>
+
+    <!-- Middle Section -->
+    <div class="info-section">
+      <h1>Rock Paper Scissors</h1>
+      <p id="status-text">Make your move!</p>
+      <div class="score-board">
+        <span>👤 You: <span id="user-score">0</span></span>
+        <span>🤖 Computer: <span id="computer-score">0</span></span>
+      </div>
+    </div>
+
+    <!-- Computer Side -->
+    <div class="computer-section">
+      <h2>Computer</h2>
+      <div class="emoji" id="computer-emoji">❔</div>
+      <div class="choices">
+        <button disabled id="computer-rock">✊</button>
+        <button disabled id="computer-paper">✋</button>
+        <button disabled id="computer-scissors">✌️</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
