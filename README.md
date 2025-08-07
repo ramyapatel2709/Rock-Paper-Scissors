@@ -26,8 +26,8 @@ This project runs entirely in the browser—no frameworks, no libraries, just go
 
 
 ## 📁 Files Included
-### 📦 rock-paper-scissors
-#### ├── index.html // The main HTML file
-#### ├── style.css // Styling for layout, colors, buttons
-#### ├── script.js // Game logic and interactivity
-#### └── README.md // You're reading it ;)
+<pre>📦 rock-paper-scissors
+├── index.html // The main HTML file
+├── style.css // Styling for layout, colors, buttons
+├── script.js // Game logic and interactivity
+└── README.md // You're reading it ;) </pre>
